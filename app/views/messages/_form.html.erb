@@ -1,4 +1,5 @@
-<%= form_with model: @message do |f| %>
+<%= form_with model: Message.new do |f|%>
+<%# <%= form_with model: @message do |f| %> 
     <div class="row">
         <div class="col-9">
             <%= f.text_field :content, placeholder: "Fale 'bom dia, Thay'", class: 'form-control', autofocus: true, required: true%>

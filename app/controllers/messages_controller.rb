@@ -2,7 +2,7 @@ class MessagesController < ApplicationController
     def create
         @message = Message.new(messages_params)
 
-        if @message.salve
+        if @message.save
             redirect_to request.referrer, notice: 'Messagem salva com sucesso!'
         else
             redirect_to request.referrer, alert: 'Erro ao enviar mensagem!'
