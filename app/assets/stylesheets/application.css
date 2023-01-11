@@ -1,18 +1,22 @@
 @import "../../../node_modules/bootstrap/scss/bootstrap";
-C:\Users\05648573197\Documents\workspace-vscode\chatbox\node_modules\bootstrap
+/* @import "bootstrap-sprockets";
+@import "bootstrap"; */
 
 
-body {
+body{
     background: url('wallpaper.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
+    color: white;
+    
 }
 
 .card {
     background-color: rgba(75, 90, 226, 0.3);
-    box-shadow: 0px 0px 10px rgba(245,245,245,0.8);
+    box-shadow: 0 0 10 rgba(245,245,245,0.8);
     color: white;
-    margin-top: 100px;
+    margin-top: 10%;
     position: relative;
+    text-align: center;
 }
