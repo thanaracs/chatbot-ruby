@@ -5,4 +5,10 @@ Rails.application.routes.draw do
   #   get '/' => 'chats#index'
   # end
   root 'chats#index'
+
+  namespace :api do
+    namespace :v1 do
+      resources :messages, only: [:index]
+    end
+  end
 end
