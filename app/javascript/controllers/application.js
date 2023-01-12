@@ -1,3 +1,5 @@
+import "components/hello_react"
+
 import { Application } from "@hotwired/stimulus"
 
 const application = Application.start()

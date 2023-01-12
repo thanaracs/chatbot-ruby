@@ -1,14 +1,15 @@
 <div class="col-md-4 offset-md-4 card">
-    <%# <% Message.all.each do |message| %>
-        <%# <%= message.content <br />      %>
-    <%# <% end %> 
+    <% Message.all.each do |message| %>
+        <%= message.content %> <br />    
+    <% end %>
+
     <div class="chat p-4 text-center">
         <div class="page-header border-bottom pb-2 p-3">
-            <h3>Chatbot</h3>
+            <h3>Chatbot:</h3>
         </div>
-        <div class="mt-3 container mb-3">
-            <%# <%= image_tag 'gaules', class: 'w-100'%> %>
-        </div>
+        <%# <div class="mt-3 container mb-3"> %>
+            <%# <%= image_tag 'gaules', class: 'w-100'%> 
+        <%# </div> %>
     <%= render 'messages/form' %>
     </div>
 
