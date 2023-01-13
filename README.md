@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Chat com mensagens armazenadas no banco de dados. </br>
+<img src="chatbot.jpg" width="600" height="400">
 
-Things you may want to cover:
+Configurações do projeto:
 
-* Ruby version
+* Ruby version: 3.1
 
-* System dependencies
+* Rails version: 7.2
 
-* Configuration
+* Database: Postgresql
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
