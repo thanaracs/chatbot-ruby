@@ -6,6 +6,7 @@ ruby "3.1.2"
  gem 'sassc-rails'
  gem 'bootstrap-sass'
  gem 'webpacker', github: 'rails/webpacker'
+ gem 'react-rails'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.4"
